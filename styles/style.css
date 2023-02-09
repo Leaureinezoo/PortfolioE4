@@ -341,7 +341,7 @@ span{
     font-size: larger;
     padding: 2%;
     background: linear-gradient(#212121, #212121) padding-box,
-                linear-gradient(-45deg, rgba(198, 35, 104, 1) 60%, rgba(180, 52, 180, 1) 75%, rgba(0, 102, 255, 1) 100%) border-box;
+                linear-gradient(-45deg, rgba(198, 35, 104, 1) 0%, rgba(180, 52, 180, 1) 75%, rgba(0, 102, 255, 1) 100%) border-box;
     border-left: 4px solid transparent;
 }
 
@@ -472,6 +472,6 @@ footer {
     text-align: center;
     transform: translateY(-6px);
     color: white;
-    font-weight: 400;
+    font-weight: 600;
     padding-top: 0.8%;
 }
