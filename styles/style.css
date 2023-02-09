@@ -6,49 +6,49 @@ html{
 {
     stroke-dasharray: 265;
     stroke-dashoffset: 265;
-    animation: line-anim 5s ease forwards infinite;
+    animation: line-anim 5s ease-in-out 1s infinite alternate;
 }
 
 #Logo path:nth-child(2) 
 {
     stroke-dasharray: 194;
     stroke-dashoffset: 194;
-    animation: line-anim 5s ease forwards infinite;
+    animation: line-anim 5s ease-in-out 1s infinite alternate;
 }
 
 #Logo path:nth-child(3) 
 {
     stroke-dasharray: 549;
     stroke-dashoffset: 549;
-    animation: line-anim 5s ease forwards infinite;
+    animation: line-anim 5s ease-in-out 1s infinite alternate;
 }
 
 #Logo path:nth-child(4) 
 {
     stroke-dasharray: 463;
     stroke-dashoffset: 463;
-    animation: line-anim 5s ease forwards infinite;
+    animation: line-anim 5s ease-in-out 1s infinite alternate;
 }
 
 #Logo path:nth-child(5) 
 {
     stroke-dasharray: 604;
     stroke-dashoffset: 604;
-    animation: line-anim 5s ease forwards infinite;
+    animation: line-anim 5s ease-in-out 1s infinite alternate;
 }
 
 #Logo path:nth-child(6) 
 {
     stroke-dasharray: 300;
     stroke-dashoffset: 300;
-    animation: line-anim 5s ease forwards infinite;
+    animation: line-anim 5s ease-in-out 1s infinite alternate;
 }
 
 #Logo path:nth-child(7) 
 {
     stroke-dasharray: 194;
     stroke-dashoffset: 194;
-    animation: line-anim 5s ease forwards infinite;
+    animation: line-anim 5s ease-in-out 1s infinite alternate;
 }
 
 @keyframes line-anim 
