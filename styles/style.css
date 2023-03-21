@@ -203,8 +203,19 @@ span{
 #div-apropos{
     text-align: center;
     padding-top: 4%;
+    padding-bottom: 7%;
     font-size: 2em;
     color: white;
+}
+
+#div_btn_cv{
+    transition: all .2s ease-in-out;
+    width: 82%;
+    margin: auto;
+}
+
+#div_btn_cv:hover{
+    transform: scale(1.03);
 }
 
 #downloadCV {
@@ -216,33 +227,26 @@ span{
     padding: 8px 20px 10px 20px;
 }
 
-
-.link-cv{
-    transition: all .2s ease-in-out;
-    width: 21%;
-    margin: auto;
-}
-
-.link-cv:hover{
-    transform: scale(1.03);
-}
-
 #downloadCompteRenduStageSpopit{
+    display: block;
     text-decoration: none;
     color: white;
     font-weight: 500;
     background: linear-gradient(-90deg, rgba(198, 35, 104, 1) 0%, rgba(180, 52, 180, 1) 33%, rgba(0, 102, 255, 1) 100%);
     border-radius: 30px;
     padding: 8px 20px 10px 20px;
+    margin-bottom: 5%;
 }
 
 #downloadCompteRenduStageItarverne{
+    display: block;
     text-decoration: none;
     color: white;
     font-weight: 500;
     background: linear-gradient(-90deg, rgba(198, 35, 104, 1) 0%, rgba(180, 52, 180, 1) 33%, rgba(0, 102, 255, 1) 100%);
     border-radius: 30px;
     padding: 8px 20px 10px 20px;
+    margin-bottom: 5%;
 }
 
 .link-rapport-stage{
@@ -282,7 +286,6 @@ span{
     background-color: #212121;
     color: white;
     width: 33%;
-    height: 470px;
     border: solid white 2px;
     border-radius: 30px;
     padding: 1%;
@@ -324,6 +327,7 @@ span{
 
 #experience-div{
     padding-top: 4%;
+    padding-bottom: 4%;
 }
 
 #parcours-title{
@@ -338,6 +342,7 @@ span{
     width: 40%;
     margin: auto;
     margin-top: 5%;
+    margin-bottom: 5%;
     font-size: larger;
     padding: 2%;
     background: linear-gradient(#212121, #212121) padding-box,
@@ -381,6 +386,7 @@ span{
     justify-content: center;
     margin: auto;
     padding-top: 3.5%;
+    padding-bottom: 3.5%;
 }
 
 .container-comp{
@@ -394,6 +400,17 @@ span{
     gap: 5%;
     box-shadow: 0px 0px 25px 0px rgb(65, 65, 65);
     width: 23%;
+}
+
+#container_competences{
+    margin-bottom: 4%;
+}
+
+@media (max-width : 1024px){
+    .container-comp {
+        width: 45%;
+        margin-bottom: 5%;
+    }
 }
 
 #title-langage{
@@ -424,6 +441,63 @@ span{
     font-size: 4em;
     color: white;
     padding-top: 4%;
+}
+
+form{
+    margin-top: 5%;
+    color: white;
+    border: solid 4px transparent;
+    background: linear-gradient(#212121, #212121) padding-box,
+                linear-gradient(-45deg, rgba(198, 35, 104, 1) 0%, rgba(180, 52, 180, 1) 33%, rgba(0, 102, 255, 1) 100%) border-box;
+    border-radius: 2em;
+    padding: 1% 1% 0% 1%;
+    box-shadow: 0px 0px 25px 0px rgb(65, 65, 65);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#div_container_npen{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin-top: 2%;
+}
+
+#div_container_message{
+    text-align: center;
+    margin-top: 2%;
+}
+
+#div_container_message > textarea{
+    width: 85%;
+    margin: auto;
+    resize: none;
+}
+
+#div_container_btn_envoyer{
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    transition: all .2s ease-in-out;
+    width: fit-content;
+}
+
+#div_container_btn_envoyer:hover{
+    transform: scale(1.04);
+}
+
+#btn_envoyer{
+    font-size: 1.5em;
+    color: white;
+    border: solid 4px transparent;
+    background: linear-gradient(#212121, #212121) padding-box,
+                linear-gradient(-45deg, rgba(198, 35, 104, 1) 0%, rgba(180, 52, 180, 1) 33%, rgba(0, 102, 255, 1) 100%) border-box;
+    border-radius: 2em;
+    padding: 2.2px 20px 5px 20px ;
+    box-shadow: 0px 0px 25px 0px rgb(65, 65, 65);
 }
 
 footer {
