@@ -2,65 +2,55 @@ html{
     scroll-behavior: smooth;
 }
 
-#Logo path:nth-child(1) 
-{
+#Logo path:nth-child(1) {
     stroke-dasharray: 265;
     stroke-dashoffset: 265;
     animation: line-anim 5s ease-in-out 1s infinite alternate;
 }
 
-#Logo path:nth-child(2) 
-{
+#Logo path:nth-child(2) {
     stroke-dasharray: 194;
     stroke-dashoffset: 194;
     animation: line-anim 5s ease-in-out 1s infinite alternate;
 }
 
-#Logo path:nth-child(3) 
-{
+#Logo path:nth-child(3) {
     stroke-dasharray: 549;
     stroke-dashoffset: 549;
     animation: line-anim 5s ease-in-out 1s infinite alternate;
 }
 
-#Logo path:nth-child(4) 
-{
+#Logo path:nth-child(4) {
     stroke-dasharray: 463;
     stroke-dashoffset: 463;
     animation: line-anim 5s ease-in-out 1s infinite alternate;
 }
 
-#Logo path:nth-child(5) 
-{
+#Logo path:nth-child(5) {
     stroke-dasharray: 604;
     stroke-dashoffset: 604;
     animation: line-anim 5s ease-in-out 1s infinite alternate;
 }
 
-#Logo path:nth-child(6) 
-{
+#Logo path:nth-child(6) {
     stroke-dasharray: 300;
     stroke-dashoffset: 300;
     animation: line-anim 5s ease-in-out 1s infinite alternate;
 }
 
-#Logo path:nth-child(7) 
-{
+#Logo path:nth-child(7) {
     stroke-dasharray: 194;
     stroke-dashoffset: 194;
     animation: line-anim 5s ease-in-out 1s infinite alternate;
 }
 
-@keyframes line-anim 
-{
-    to 
-    {
+@keyframes line-anim {
+    to{
         stroke-dashoffset: 0;
     }
 }
 
-#Logo 
-{
+#Logo {
     width: 255px;
     height: 77px;
     animation: animLogo 3s ease forwards;
@@ -548,4 +538,54 @@ footer {
     color: white;
     font-weight: 600;
     padding-top: 0.8%;
+}
+
+#div_projects{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.div_projet{
+    margin-top: 10%;
+    text-align: center;
+}
+
+.title_projects{
+    color: white;
+}
+
+#autres_projets{
+    color: white;
+    text-align: center;
+    margin-top: 11%;
+}
+
+#container_github_project{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.div_btn_voir{
+    transition: all .2s ease-in-out;
+    width: 82%;
+    margin: auto;
+    width: fit-content;
+    margin-top: 10%;
+}
+
+.div_btn_voir:hover{
+    transform: scale(1.06);
+}
+
+.btn_voir_project{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    background: linear-gradient(-90deg, rgba(198, 35, 104, 1) 0%, rgba(180, 52, 180, 1) 33%, rgba(0, 102, 255, 1) 100%);
+    border-radius: 30px;
+    padding: 8px 20px 10px 20px;
 }

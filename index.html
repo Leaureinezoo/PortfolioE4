@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Lorenzo Monminoux</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon4.svg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
@@ -43,10 +44,10 @@
         </div>
         <div id="div-navbar">
             <ul id="ul-navbar">
-                <li><a href="#section-accueil" class="btn-navbar">Accueil</a></li>
+                <li><a href="index.html" class="btn-navbar">Accueil</a></li>
                 <li><a href="#section-apropos" class="btn-navbar">A propos</a></li>
                 <li><a href="#section-experience" class="btn-navbar">Expérience</a></li>
-                <li><a href="#section-parcour" class="btn-navbar">Parcours</a></li>
+                <li><a href="#section-parcours" class="btn-navbar">Parcours</a></li>
                 <li><a href="#section-compétences" class="btn-navbar">Compétences</a></li>
                 <li><a href="#section-projets" class="btn-navbar">Projets</a></li>
                 <li><a href="#section-contact" class="btn-navbar">Contact</a></li>
@@ -57,7 +58,7 @@
     <section id="section-accueil">
         <div id="div-Accueil" class="container-section">
             <h1 id="Accueil-title">
-                <span>Salut</span> ! Moi c'est <span>Lorenzo Monminoux</span>
+                <span>Bonjour</span> ! Moi c'est <span>Lorenzo Monminoux</span>
             </h1>
             <h2 id="Accueil-subTitle">
                 <span>Bienvenue</span> sur mon <span>portfolio</span>
@@ -297,8 +298,45 @@
 
     <section id="section-projets" class="container-section">
         <div>
-            <h1 id="title-projet">Mes projets</h1>
-        </div>
+            <div>
+                <h1 id="title-projet">Mes projets</h1>
+            </div>
+            <div id="div_projects">
+                <div class="div_projet">
+                    <h3 class="title_projects"><strong class="soulignement">Mon portfolio</strong></h3>
+                    <div class="div_btn_voir">
+                        <a href="Portfolio.html" class="btn_voir_project">Voir</a>
+                    </div>
+                </div>
+                <div class="div_projet">
+                    <h3 class="title_projects"><strong class="soulignement">Station météo C# WPF</strong></h3>
+                    <div class="div_btn_voir">
+                        <a href="Meteo.html" class="btn_voir_project">Voir</a>
+                    </div>
+                </div>
+                <div class="div_projet">
+                    <h3 class="title_projects"><strong class="soulignement">CRUD Django</strong></h3>
+                    <div class="div_btn_voir">
+                        <a href="CRUD.html" class="btn_voir_project">Voir</a>
+                    </div>
+                </div>
+            </div>
+            <div id="autres_projets">
+                <h4>Pour voir mes autres projets, voici mon GitHub :</h4>
+                <div id="container_github_project">
+                    <div class="btn-git-link">
+                        <a href="https://github.com/Leaureinezoo" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                width="64" height="64" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255)">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>    
     </section>
 
     <section id="section-contact" class="container-section">
