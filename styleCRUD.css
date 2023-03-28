@@ -142,33 +142,3 @@ section{
 #div_title{
     padding-top: 4%;
 }
-
-li{
-    list-style-type: none;
-}
-
-#div_container_revenir{
-    margin-top: 2%;
-    margin-bottom: 3%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    transition: all .2s ease-in-out;
-    width: fit-content;
-}
-
-#div_container_revenir:hover{
-    transform: scale(1.04);
-}
-
-#btn_revenir{
-    text-decoration: none;
-    font-size: 1.5em;
-    color: white;
-    border: solid 4px transparent;
-    background: linear-gradient(#212121, #212121) padding-box,
-                linear-gradient(-45deg, rgba(198, 35, 104, 1) 0%, rgba(180, 52, 180, 1) 33%, rgba(0, 102, 255, 1) 100%) border-box;
-    border-radius: 2em;
-    padding: 2.2px 20px 5px 20px ;
-    box-shadow: 0px 0px 25px 0px rgb(65, 65, 65);
-}
