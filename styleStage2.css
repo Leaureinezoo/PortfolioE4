@@ -136,9 +136,71 @@ section{
     border-bottom: solid white 5px;
     background-color: #212121;
     color: white;
-    text-align: center;
 }
 
 #div_title{
     padding-top: 4%;
+}
+
+#l{
+    list-style-type: none;
+}
+
+#div_container_revenir{
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    transition: all .2s ease-in-out;
+    width: fit-content;
+}
+
+#div_container_revenir:hover{
+    transform: scale(1.04);
+}
+
+#btn_revenir{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+    border: solid 4px transparent;
+    background: linear-gradient(#212121, #212121) padding-box,
+                linear-gradient(-45deg, rgba(198, 35, 104, 1) 0%, rgba(180, 52, 180, 1) 33%, rgba(0, 102, 255, 1) 100%) border-box;
+    border-radius: 2em;
+    padding: 2.2px 20px 5px 20px ;
+    box-shadow: 0px 0px 25px 0px rgb(65, 65, 65);
+}
+
+#title_projet{
+    text-align: center;
+}
+
+#compétences_BTS{
+    width: 800px;
+    margin: auto;
+}
+
+#comp_mise_en_oeuvre{
+    padding-top: 4%;
+    text-align: center;
+}
+
+#list_comp{
+    padding-top: 3%;
+    padding-left: 15%;
+}
+
+#projet{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.list{
+    text-align: left;
+}
+
+.divlist{
+    width: 600px;
+    margin: auto;
 }
