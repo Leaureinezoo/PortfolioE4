@@ -136,14 +136,13 @@ section{
     border-bottom: solid white 5px;
     background-color: #212121;
     color: white;
-    text-align: center;
 }
 
 #div_title{
     padding-top: 4%;
 }
 
-li{
+#l{
     list-style-type: none;
 }
 
@@ -171,4 +170,32 @@ li{
     border-radius: 2em;
     padding: 2.2px 20px 5px 20px ;
     box-shadow: 0px 0px 25px 0px rgb(65, 65, 65);
+}
+
+#title_projet{
+    text-align: center;
+}
+
+#compétences_BTS{
+    width: 800px;
+    margin: auto;
+}
+
+#comp_mise_en_oeuvre{
+    padding-top: 4%;
+    text-align: center;
+}
+
+#list_comp{
+    padding-top: 3%;
+    padding-left: 15%;
+}
+
+#projet{
+    margin-top: 5%;
+    text-align: center;
+}
+
+#git_version{
+    list-style-type: none;
 }
