@@ -342,34 +342,34 @@
     <section id="section-contact" class="container-section">
         <div>
             <h1 id="title-contact">Me contacter</h1>
-            <form action="https://formsubmit.co/lorenzo.monminoux25@gmail.com" method="post">
+            <form action="https://formsubmit.co/lorenzo.monminoux25@gmail.com" method="post" id="form">
                 <div id="div_container_npen">
                     <div>
-                        <div>
+                        <div class="input" id="div-prenom">
                             <label>Prenom :</label><br />
                             <input type="text" placeholder="John" name="prenom"></input>
                         </div>
-                        <div>
+                        <div class="input">
                             <label>Nom :</label><br />
                             <input type="text" placeholder="Doe" name="nom"></input>
                         </div>
                     </div>
                     <div>
-                        <div>
+                        <div class="input">
                             <label>Email :</label><br />
                             <input type="text" placeholder="john.doe@domain.com" required name="mail"></input>
                         </div>
-                        <div>
+                        <div class="input">
                             <label>Numéro de téléphone :</label><br />
                             <input type="tel" placeholder="0000000000" name="tel"></input>
                         </div>
                     </div>
                 </div>
-                <div id="div_container_message">
+                <div id="div_container_message" class="input">
                     <label>Message :</label><br />
                     <textarea rows="3" placeholder="Something" required name="message"></textarea>
                 </div>
-                <div id="div_container_btn_envoyer">
+                <div id="div_container_btn_envoyer" class="input">
                     <input type="submit" id="btn_envoyer" name="btn_envoyer"></input>
                     <input type="hidden" name="_next" value="https://lorenzo-monminoux.fr">
                     <input type="hidden" name="_captcha" value="false">
@@ -399,7 +399,7 @@
                         </svg></a>
                 </div>
             </div>
-            <p id="reserved">© Lorenzo Monminoux | Tous droits Réservés</p>
+            <p id="reserved">Lorenzo Monminoux</p>
         </div>
     </footer>
 </body>

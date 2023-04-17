@@ -2,6 +2,10 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    width: inherit;
+}
+
 #Logo path:nth-child(1) {
     stroke-dasharray: 265;
     stroke-dashoffset: 265;
@@ -156,6 +160,7 @@ section{
 
 #Accueil-title{
     font-size: 5em;
+    padding-top: 10%;
 }
 
 .soulignement{
@@ -588,4 +593,110 @@ footer {
     background: linear-gradient(-90deg, rgba(198, 35, 104, 1) 0%, rgba(180, 52, 180, 1) 33%, rgba(0, 102, 255, 1) 100%);
     border-radius: 30px;
     padding: 8px 20px 10px 20px;
+}
+
+@media only screen and (max-width: 1150px){
+    #ul-navbar{
+        gap: 4vw;
+    }
+
+    #Accueil-title{
+        margin-top: 0%;
+    }
+}
+
+@media only screen and (max-width: 820px){
+    #ul-navbar{
+        gap: 2vw;
+    }
+
+    #Accueil-title{
+        margin-top: 0%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #div-logo{
+        margin-top: 3%;
+    }
+
+    #div-navbar{
+        display: none;
+    }
+
+    #div-Accueil{
+        font-size: smaller;
+    }
+
+    #div_btn_cv{
+        font-size: 0.79em;
+    }
+
+    #container-spopit{
+        width: fit-content;
+    }
+
+    #container-itarverne{
+        width: fit-content;
+    }
+
+    #container-experience{
+        width: auto;
+        margin: auto;
+    }
+
+    .container-comp{
+        padding: 5%;
+    }
+
+    .div-title{
+        font-size: 0.8em;
+    }
+
+    #div_projects{
+        flex-direction: column;
+    }
+
+    .div_projet{
+        margin-bottom: 8%;
+    }
+
+    #div_container_npen{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input{
+        margin-bottom: 10%;
+    }
+
+    #form{
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+
+    #div_container_btn_envoyer{
+        margin-bottom: 10%;
+    }
+
+    #div-prenom{
+        margin-top: 10%;
+    }
+
+    #footer-btns{
+        padding-top: 4.5%;
+    }
+
+    #title-contact{
+        font-size: 3.5em;
+    }
+
+    #container-experience{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    #div_btn_cv{
+        margin-bottom: 5%;
+    }
 }

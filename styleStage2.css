@@ -204,3 +204,81 @@ section{
     width: 600px;
     margin: auto;
 }
+
+footer {
+    height: 120px;
+    background: rgb(198, 35, 104);
+    background: linear-gradient(
+      90deg,
+      rgba(198, 35, 104, 1) 0%,
+      rgba(180, 52, 180, 1) 33%,
+      rgba(0, 102, 255, 1) 100%
+    );
+    background-size: 400% 400%;
+    position: relative;
+    animation: changeFooter 9s ease-in-out infinite;
+}
+
+@keyframes changeFooter {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+#footer-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.6%;
+}
+
+.btn-git-link-footer{
+    transition: all .2s ease-in-out;
+}
+
+.btn-git-link-footer:hover{
+    transform: scale(1.15);
+}
+
+#reserved {
+    font-size: 0.8em;
+    text-align: center;
+    transform: translateY(-6px);
+    color: white;
+    font-weight: 600;
+    padding-top: 0.8%;
+}
+
+@media only screen and (max-width: 1030px) {
+    #compétences_BTS{
+        width: 600px;
+    }
+
+    .img{
+        width: 550px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #div-logo{
+        margin-top: 3%;
+    }
+
+    #div-navbar{
+        display: none;
+    }
+
+    #compétences_BTS{
+        width: 400px;
+    }
+
+    .img{
+        width: 350px;
+    }
+}
